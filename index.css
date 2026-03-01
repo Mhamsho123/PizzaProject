@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+.title-background{
+    background: url('https://media.istockphoto.com/id/1551595837/vector/seamless-pizza-sketch-on-black-background.jpg?s=612x612&w=0&k=20&c=KiHqfnB__1sH7RO0URjqdjE94F5Sjlm1sniFzEx3mtE=');
+    height: 150px;
+}
+.title{
+    font-size: 4rem;
+    color: yellow;
+    text-shadow: 2px 3px 1px red;
+    padding-top: 25px;
+}
+
+#creator-text{
+    color: red;
+    text-shadow: none;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px yellow;
+    
+}
+
+#creator-text:hover{
+    text-shadow: 2px 2px 30px yellow;
+
+}
