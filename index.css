@@ -26,3 +26,19 @@ body{
     text-shadow: 2px 2px 30px yellow;
 
 }
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: black;
+    height: 420px;
+    width: 350px;
+    margin: auto;
+    background-color: grey;
+    border: 1px black solid;
+    border-radius: 8px;
+}

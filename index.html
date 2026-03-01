@@ -10,6 +10,49 @@
         <div class="title-background">
             <header class="title" id="title"> You are the <span id="creator-text">Creator</span> of your Pizza</header>
         </div>
+        <div class="modal">
+            <h1>Sign Up To Our Reward Progam</h1>
+            <p>By enetering your email you will be entered into a cash prize system where the value is as endless as your love 
+                pizza.
+            </p>
+            <input type="email" name="modal-email">
+
+        </div>
+        <div>
+            <form class="pizza-form">
+                <label for="name">Enter Name</label>
+                <input 
+                class="name" 
+                id="name" 
+                name="name"
+                aria-label="name"
+                placeholder="John Doe"
+                type="text"
+                required
+                >
+                <select>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select required>
+                <div>
+                    <label for="peporni">Peporni</label>
+                    <input type="checkbox" id="peporni">
+                    <label for="extra-cheese">Extra Cheese</label>
+                    <input type="checkbox" id="extra-cheese">
+                    <label for="onions">onions</label>
+                    <input type="checkbox" id="onions">
+                </div>
+                <div>
+                    <label for="chicken">Chicken</label>
+                    <input type="checkbox" id="chicken">
+                    <label for="beef">Beef</label>
+                    <input type="checkbox" id="beef">
+                    <label for="buffalo">Buffalo Chicken</label>
+                    <input type="checkbox" id="buffalo">
+                </div>
+            </form>
+        </div>
     </div>
 
 <script src="index.js"></script>
