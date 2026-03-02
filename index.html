@@ -12,15 +12,17 @@
         </div>
         <div class="modal" id="modal">
             <button class="modal-close-btn" id="modal-close-btn"disabled>X</button>
-            <form>
-                <h1>Sign Up To Our Reward Progam</h1>
-                <p>By enetering your email you will be entered into a cash prize system where the value is as endless as your love 
+            <form id="modal-form">
+                <h1 id="modal-title">Sign Up To Our Reward Progam</h1>
+                <p id="modal-text">By enetering your email you will be entered into a cash prize system where the value is as endless as your love 
                     pizza.
                 </p>
-                <label for="modal-email">Email</label>
-                <input class="modal-email" id="modal-email"type="email" name="modal-email" aria-label="modal-email">
+                <div id="modal-email">
+                    <label for="modal-email">Email</label>
+                    <input class="modal-email" type="email" name="modal-email" aria-label="modal-email">
+                </div>
                 <div class="modal-choice-btn">
-                    <button class="modal-submit-btn">Submit</button>
+                    <button class="modal-submit-btn" id="modal-submit-btn">Submit</button>
                 </div>
             </form>
 
