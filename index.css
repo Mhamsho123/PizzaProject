@@ -29,6 +29,7 @@ body{
 
 
 .modal{
+    display: none;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -41,4 +42,39 @@ body{
     background-color: grey;
     border: 1px black solid;
     border-radius: 8px;
+}
+
+.modal-close-btn{
+    background: none;
+    border: none;
+    font-size: 15px;
+    padding-left: 305px;
+    padding-top: 10px;
+}
+.modal-close-btn:disabled,
+.modal-close-btn:disabled:hover {
+    cursor: not-allowed;
+    color: black;
+
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:active {
+    color: red;
+}
+
+.modal-choice-btn{
+    margin-top: 30;
+}
+
+.modal-submit-btn{
+    width: 100px;
+    height: 25px;
+    border: 1px black solid;
+    border-radius: 5px;
+
+}
+
+.modal-submit-btn:hover{
+    background-color: red;
 }
