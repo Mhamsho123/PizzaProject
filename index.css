@@ -6,6 +6,8 @@ body{
 .title-background{
     background: url('https://media.istockphoto.com/id/1551595837/vector/seamless-pizza-sketch-on-black-background.jpg?s=612x612&w=0&k=20&c=KiHqfnB__1sH7RO0URjqdjE94F5Sjlm1sniFzEx3mtE=');
     height: 150px;
+    background-position: center;
+    background-size: cover;
 }
 .title{
     font-size: 4rem;
@@ -84,9 +86,13 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 100px 400px 0px ;
+
+    margin: 100px auto;
+    max-width: 500px;
+    width: 90%;
+
     background: grey;
-    height: 300px;
+    height: 500px;
     border: 1px black solid;
     border-radius: 8px;
     box-shadow: 8px 8px 1px black;
@@ -109,8 +115,16 @@ body{
 }
 
 .form-options{
-    margin-bottom: 20px;
+    margin-top: 40px;
     height: 30px;
     width: 200px;
     text-align: center;
+}
+
+.form-checkbox-container{
+    margin-top: 50px;
+}
+
+.form-notes-container{
+    margin-top: 50px;
 }
