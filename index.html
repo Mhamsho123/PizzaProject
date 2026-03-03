@@ -29,21 +29,26 @@
         </div>
         <div>
             <form class="pizza-form">
-                <label for="name">Enter Name</label>
-                <input 
-                class="name" 
-                id="name" 
-                name="name"
-                aria-label="name"
-                placeholder="John Doe"
-                type="text"
-                required
-                >
-                <select>
-                    <option name="small-size">Small</option>
-                    <option name="medium-size">Medium</option>
-                    <option name="large-size">Large</option>
-                </select required>
+                <div class="form-name-container">
+                    <label for="name" id="label-name">Enter Name</label>
+                    <input 
+                    class="name" 
+                    id="name" 
+                    name="name"
+                    aria-label="name"
+                    placeholder="John Doe"
+                    type="text"
+                    required
+                    >
+                </div>
+                <div>
+                    <select class="form-options">
+                        <option name="">Choose your size</option>
+                        <option name="small-size">Small</option>
+                        <option name="medium-size">Medium</option>
+                        <option name="large-size">Large</option>
+                    </select required>
+                </div>
                 <div>
                     <label for="peporni">Peporni</label>
                     <input type="checkbox" id="peporni" name="peporni">
@@ -59,6 +64,10 @@
                     <input type="checkbox" id="beef" name="beef">
                     <label for="buffalo">Buffalo Chicken</label>
                     <input type="checkbox" id="buffalo" name="buffalo">
+                </div>
+                <div>
+                    <label for="form-notes">Additonal notes</label>
+                    <input type="text" id="form-notes" name="form-notes" class="form-notes" placeholder="">
                 </div>
             </form>
         </div>
