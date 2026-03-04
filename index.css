@@ -33,6 +33,7 @@ body{
 .modal{
     display: none;
     position: fixed;
+    z-index: 1000;
     top: 0;
     bottom: 0;
     left: 0;
@@ -99,12 +100,12 @@ body{
 }
 
 /* Move the "Create Your Pizza" title up */
-.pizza-form h1 {
+.form-title {
     margin-top: 0;        /* removes the default big top margin */
-    margin-bottom: 20px;  /* optional spacing under the title */
+    margin-bottom: 30px;  /* optional spacing under the title */
     position: relative;
-    top: -30px;           /* increase this to move it higher (ex: -30px) */
-  }
+    top: -10px;           /* increase this to move it higher (ex: -30px) */
+}
 
 .form-name-container{
     margin-bottom: 15px;

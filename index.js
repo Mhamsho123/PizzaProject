@@ -36,4 +36,20 @@ modalForm.addEventListener('submit', function(e){
     }, 10000);
 })
 
+//submitting form
+
+const pizzaForm = document.getElementById('pizza-form')
+const submit = document.getElementById('form-submit')
+
+
+pizzaForm.addEventListener('submit', (e)=>{
+    e.preventDefault();
+
+    const pizzaData = new FormData(pizzaForm);
+    const customerName = pizzaData.get('name');
+    const size = pizzaData.get('size');
+  
+    console.log('name:', customerName);
+    console.log('size:', size);
+  });
 
