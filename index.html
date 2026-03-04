@@ -28,8 +28,9 @@
 
         </div>
         <div>
-            <form class="pizza-form">
+            <form class="pizza-form" id="pizza-form">
                 <div class="form-name-container">
+                    <h1 class="form-title">Create Your Pizza</h1>
                     <label for="name" id="label-name">Enter Name</label>
                     <input 
                     class="name" 
@@ -42,12 +43,12 @@
                     >
                 </div>
                 <div>
-                    <select class="form-options">
-                        <option name="">Choose your size</option>
-                        <option name="small-size">Small</option>
-                        <option name="medium-size">Medium</option>
-                        <option name="large-size">Large</option>
-                    </select required>
+                    <select class="form-options" name="size"required>
+                        <option name="" disabled selected>Choose your size</option>
+                        <option value="small-size">Small</option>
+                        <option value="medium-size">Medium</option>
+                        <option value="large-size">Large</option>
+                    </select>
                 </div>
                 <div class="form-checkbox-container">
                     <div>
@@ -71,6 +72,7 @@
                     <label for="form-notes">Additonal notes</label>
                     <input type="text" id="form-notes" name="form-notes" class="form-notes" placeholder="">
                 </div>
+                <button class="form-submit" type="submit">Submit Order</button>
             </form>
         </div>
     </div>

@@ -5,6 +5,8 @@ const modalTitle = document.getElementById('modal-title')
 const modalText = document.getElementById('modal-text')
 const modalEmail = document.getElementById('modal-email')
 const modalSubmitBtn = document.getElementById("modal-submit-btn")
+
+
 //modal function and close function
 setTimeout(() => {
     modal.style.display = 'inline';
@@ -16,6 +18,7 @@ setTimeout(() => {
 modalCloseBtn.addEventListener('click', function(){
     modal.style.display = 'none';
 })
+
 
 //modal submit function
 modalForm.addEventListener('submit', function(e){
@@ -30,7 +33,7 @@ modalForm.addEventListener('submit', function(e){
 
     setTimeout(() => {
         modal.style.display='none'
-    }, 3000);
+    }, 10000);
 })
 
 
