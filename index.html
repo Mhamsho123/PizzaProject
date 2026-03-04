@@ -42,30 +42,31 @@
                     required
                     >
                 </div>
-                <div>
-                    <select class="form-options" name="size"required>
+                <div class="form-option-container">
+                    <label for="form-options">Size</label>
+                    <select class="form-options" id="form-options" name="size"required>
                         <option value="" disabled selected>Choose your size</option>
                         <option value="small-size">Small</option>
                         <option value="medium-size">Medium</option>
                         <option value="large-size">Large</option>
                     </select>
                 </div>
-                <div class="form-checkbox-container">
+                <div class="form-checkbox-container" name="form-checkbox-container">
                     <div>
                         <label for="peporni">Peporni</label>
-                        <input type="checkbox" id="peporni" name="peporni">
+                        <input type="checkbox" id="peporni" name="peporni" value="peporni">
                         <label for="extra-cheese">Extra Cheese</label>
-                        <input type="checkbox" id="extra-cheese" name="extra-cheese">
+                        <input type="checkbox" id="extra-cheese" name="extra-cheese" value="extra-cheese">
                         <label for="onions">Onions</label>
-                        <input type="checkbox" id="onions" name="onions">
+                        <input type="checkbox" id="onions" name="onions" value="onions">
                     </div>
                     <div>
                         <label for="chicken">Chicken</label>
-                        <input type="checkbox" id="chicken" name="chicken">
+                        <input type="checkbox" id="chicken" name="chicken" value="chicken">
                         <label for="beef">Beef</label>
-                        <input type="checkbox" id="beef" name="beef">
+                        <input type="checkbox" id="beef" name="beef" value="beef">
                         <label for="buffalo">Buffalo Chicken</label>
-                        <input type="checkbox" id="buffalo" name="buffalo">
+                        <input type="checkbox" id="buffalo" name="buffalo" value="buffalo-chicken">
                     </div>
                 </div>
                 <div class="form-notes-container">

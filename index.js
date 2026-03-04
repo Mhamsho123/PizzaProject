@@ -48,8 +48,12 @@ pizzaForm.addEventListener('submit', (e)=>{
     const pizzaData = new FormData(pizzaForm);
     const customerName = pizzaData.get('name');
     const size = pizzaData.get('size');
+    const toppings = Array.from(
+        pizzaForm.querySelectorAll('input[type="checkbox"]:checked')
+      ).map(cb => cb.value);
   
     console.log('name:', customerName);
     console.log('size:', size);
+    console.log('toppings', toppings)
   });
 
